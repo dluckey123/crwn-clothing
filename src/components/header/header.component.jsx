@@ -11,10 +11,10 @@ const Header = ({ currentUser }) => (
             <Logo className='logo' />
         </Link>
         <div className='options'>
-                <Link className='options' to='/shop'>
+                <Link className='option' to='/shop'>
                 SHOP
                 </Link>
-                <Link className='options' to='/contact'>
+                <Link className='option' to='/contact'>
                 CONTACT
                 </Link>  
                 {
